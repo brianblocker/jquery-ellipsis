@@ -1,4 +1,4 @@
-#ellipsis
+#jquery-ellipsis
 ========
 
 *Version: 0.1.0*
@@ -28,9 +28,15 @@ Simply include ellipsis.js AFTER jQuery, and you can start using it.
 ###*HTML*
 ```html
 <div>
-  <span class="items-that-need-an-ellipsis">This is a string that is too long, so we need to truncate it.</span>
-  <span class="items-that-need-an-ellipsis">This is a string that is also too long, so we need to truncate it as well.</span>
-  <span class="items-that-need-an-ellipsis">This is yet another string that is too long, so we again need to truncate it.</span>
+  <span class="items-that-need-an-ellipsis">
+    This is a string that is too long, so we need to truncate it.
+  </span>
+  <span class="items-that-need-an-ellipsis">
+    This is a string that is also too long, so we need to truncate it as well.
+  </span>
+  <span class="items-that-need-an-ellipsis">
+    This is yet another string that is too long, so we again need to truncate it.
+  </span>
 </div>
 ```
 
@@ -79,9 +85,16 @@ It's possible to override the passed options for a specific element.
 
 ```html
 <div>
-  <span class="items-that-need-an-ellipsis" data-max="10">This is a string that is too long, so we need to truncate it.</span>
-  <span class="items-that-need-an-ellipsis" data-max="15" data-position="start">This is a string that is also too long, so we need to truncate it as well.</span>
-  <span class="items-that-need-an-ellipsis">This is yet another string that is too long, so we again need to truncate it.</span>
+  <span class="items-that-need-an-ellipsis" data-max="10">
+    This is a string that is too long, so we need to truncate it.
+  </span>
+  <span class="items-that-need-an-ellipsis" data-max="15" data-position="start">
+    This is a string that is also too long, so we need to truncate it as well.
+  </span>
+  
+  <span class="items-that-need-an-ellipsis">
+    This is yet another string that is too long, so we again need to truncate it.
+  </span>
 </div>
 ```
 
