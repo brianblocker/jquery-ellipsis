@@ -1,14 +1,14 @@
 #ellipsis
 ========
 
-Version: 0.1.0
+*Version: 0.1.0*
 
-Author: Brian Blocker - @brianblocker
+*Author: Brian Blocker - @brianblocker*
 
-<!-- high-level summary of what this tool does and why it is useful. At least one paragraph -->
+
 A jQuery plugin that will take a string and put an ellipsis on the front, middle, or end of it. Other ellipsis plugins have lots of options. One day this one will, too.
 
-The biggest use-caes for this ellipsis plugin is when you want the ellipsis to be in the _middle_ of the string.
+The biggest use-case for this ellipsis plugin is when you want the ellipsis to be in the _middle_ of the string.
 
 Please note that this plugin currently only cares about the length of the string, having nothing to do with height or style of the parent.
 
@@ -18,11 +18,6 @@ Please note that this plugin currently only cares about the length of the string
 * An understanding of selectors
 * An understanding of JavaScript objects
 
-##List of Files
-<!-- list all libraries, scripts, other files provided with this tool.
-Use asterisk-space if you want to make a bullet item.  -->
-
-
 
 ##Installation
 Simply include ellipsis.js AFTER jQuery, and you can start using it.
@@ -30,7 +25,7 @@ Simply include ellipsis.js AFTER jQuery, and you can start using it.
 
 ##Usage
 
-###HTML
+###*HTML*
 ```html
 <div>
   <span class="items-that-need-an-ellipsis">This is a string that is too long, so we need to truncate it.</span>
@@ -39,7 +34,7 @@ Simply include ellipsis.js AFTER jQuery, and you can start using it.
 </div>
 ```
 
-###JavaScript
+###*JavaScript*
 ```javascript
 // assuming DOM is ready
 
@@ -62,7 +57,7 @@ $( selector ).ellipsis( options );
 
 ```
 
-###Result
+###*Result*
 ```html
 <div>
   <span class="items-that-need-an-ellipsis" data-before_ellipsis="This is a string that is too long, so we need to truncate it.">
@@ -79,7 +74,7 @@ $( selector ).ellipsis( options );
 
 Nifty.
 
-###Overriding Options
+###*Overriding Options*
 It's possible to override the passed options for a specific element.
 
 ```html
@@ -90,7 +85,7 @@ It's possible to override the passed options for a specific element.
 </div>
 ```
 
-###Same JavaScript
+###*Same JavaScript*
 ```javascript
 
 var selector = '.items-that-need-an-ellipsis'
@@ -103,7 +98,7 @@ $( selector ).ellipsis( options );
 
 ```
 
-###Result
+###*Result*
 ```html
 <div>
   <span class="items-that-need-an-ellipsis" data-max="10" data-before_ellipsis="This is a string that is too long, so we need to truncate it.">
