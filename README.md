@@ -24,7 +24,7 @@ Use asterisk-space if you want to make a bullet item.  -->
 
 
 
-##Installation <!-- remove this section if no installation necessary -->
+##Installation
 Simply include ellipsis.js AFTER jQuery, and you can start using it.
 
 
